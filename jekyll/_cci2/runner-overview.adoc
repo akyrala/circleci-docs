@@ -99,6 +99,10 @@ The runner consists of two components: the launch agent and the task agent.
 
 The system has been designed to allow administrators to configure the task-agent to run with a lower level of privileges than the launch-agent. Any user who is able to execute a job will be able to gain the same privileges as task-agent. The instructions below are the recommended deployment which follows this approach (launch agent will run as root, but task agent will run as circleci).
 
+== SSH Server
+
+Task agent includes an SSH server that is activated when a user uses xref:ssh-access-jobs.md[re-run with SSH feature]. *This can grant access SSH access to your machine from anyone authorized to use the re-run with SSH feature*. If you would like to use this feature, please ensure that your users can connect to the server over your network.
+
 == Public repositories
 
 CircleCI runner is not recommended for use with public projects that have the "Build forked pull requests" setting enabled. In this case, a malicious actor may alter your machine or execute code on it by forking your repository, committing code, and opening a pull request. Untrusted jobs running on your CircleCI runner pose significant security risks for your machine and network environment, especially if your machine persists its environment between jobs. Some of the risks include:
