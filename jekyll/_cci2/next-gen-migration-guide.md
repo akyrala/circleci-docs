@@ -15,7 +15,7 @@ version:
 
 ## Overview
 
-Last year (2020) CircleCI introduced the next generation (next-gen) of Convenience Images. These new images are designed to replace the legacy Convenience Images that came out during the announcement of CircleCI 2.0, about 4 years ago. The next-gen CircleCI Convenience Images are designed from the ground up for a Continuous Integration environment. They’re designed to be faster, more efficient, and more importantly, more reliable. You can learn more about all of the features on our blog post. As we begin to deprecate the legacy images, here’s information on the migration process.
+Last year (2020) CircleCI introduced the next generation (next-gen) of Convenience Images. These new images are designed to replace the legacy Convenience Images that came out during the announcement of CircleCI 2.0, about 4 years ago. The next-gen CircleCI Convenience Images are designed from the ground up for a Continuous Integration environment. They’re designed to be faster, more efficient, and more importantly, more reliable. You can learn more about all of the features on our blog post. As we begin to deprecate the legacy images, here is information on the migration process.
 
 Moving from a legacy to next-gen image is easy and straightforward. All legacy images have a Docker namespace of “circleci” while next-gen images have a Docker namespace of “cimg”. For example, migrating from the legacy Ruby or Python image to the respective next-gen:
 
