@@ -65,7 +65,9 @@ With the base image, at least two LTS releases and non-EOL’d standard releases
 
 ## Troubleshooting
 
-When migrating to a next-gen image, there might be some software issues. Common issues include a library you were using now has a different version or an apt package is no longer pre-installed. In this scenario simply install that package using:
+When migrating to a next-gen image, there might be some software issues. Common issues include:
+* A library you were using now has a different version. 
+* An apt package is no longer pre-installed. In this scenario simply install that package using:
 
 sudo apt-get update && sudo apt-get install -y <the-package>
 
