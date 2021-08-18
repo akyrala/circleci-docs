@@ -27,7 +27,20 @@ circleci/python:3.8.4 -> cimg/python:3.8.4
 
 ### Deprecated images
 
-There are a few images that will be completely deprecated, without a replacement, as well as one that has a name change. The buildpack-deps, JRuby, and DynamoDB images will be fully deprecated with no next-gen equivalents. If you are using the buildpack-deps image, the suggestion is to use the new CircleCI Base image, cimg/base. For the other two images, you can install the software yourself in the base image or use a 3rd-party image instead. The Go image name has been changed from golang to go. All of the Legacy to Next-Gen image changes are captured below in this table:
+Several changes are being made to existing images. The following images will be deprecated without next-gen equivalents:
+
+* `buildpack-deps`
+* `JRuby`
+* `DynamoDB`
+
+If you are using the `buildpack-deps` image, the suggestion is to use the new CircleCI Base image, `cimg/base`. For the other two images, you can install the software yourself in the base image or use a 3rd-party image instead.
+
+Also, the following image will be renamed:
+
+* The Go image will be changed from `golang` to `go`
+
+All Legacy to Next-Gen image changes are captured below in this table:
+
 
 
 | Legacy Image | Next-Gen Image |
