@@ -49,7 +49,7 @@ All Legacy to Next-Gen image changes are captured below in this table:
 | circleci/jruby | No suggested path |
 | circleci/dynamodb | No suggested path |
 | circleci/golang | cimg/go |
-
+{: class="table table-striped"}
 
 ### Browser Testing
 
