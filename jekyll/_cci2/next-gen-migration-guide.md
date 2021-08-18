@@ -84,5 +84,5 @@ When migrating to a next-gen image, there might be some software issues. Common 
 
 sudo apt-get update && sudo apt-get install -y <the-package>
 
-Every image has its own GitHub repository. You can find them here. These repositories are where you can learn more about an image, what makes up the image, open GitHub Issues, and contribute PRs. If you’re having an issue with an image, especially if it’s a migration issue, you can open up a GitHub Issue and ask questions. You can always open up a Support ticket or reach out on CircleCI Discuss. 
+Every image has its own GitHub repository. You can find them here. These repositories are where you can learn more about an image, what makes up the image, open GitHub Issues, and contribute PRs. If you are having an issue with an image, especially if it’s a migration issue, you may open up a GitHub Issue and ask questions. You also may open a Support ticket or reach out on CircleCI Discuss. 
 
