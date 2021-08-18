@@ -54,7 +54,7 @@ Next-gen Variant Tag
 -node-browsers-legacy
 
 
-The new, single browsers variant tag includes Node.js, common utilities to use in browser testing such as Selenium, but not the actual browsers. Please note the browsers are no longer pre-installed. Instead, browsers such as Google Chrome and Firefox as well as their drivers Chromedriver and Gecko are installed via the browsers-tools orb. This provides the flexibility to mix and match the browser versions you need in a build rather than using strictly what CircleCI provides. You can find examples of how to use this orb here.
+The new, single browsers variant tag includes Node.js, common utilities to use in browser testing such as Selenium, but not the actual browsers. Please note the browsers are no longer pre-installed. Instead, browsers such as Google Chrome and Firefox, as well as their drivers Chromedriver and Gecko, are installed via the `browsers-tools` orb. This provides the flexibility to mix and match the browser versions you need in a build rather than using strictly what CircleCI provides. You can find examples of how to use this orb here.
 
 Using Ubuntu as the Single Base OS
 
